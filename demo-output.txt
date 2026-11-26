@@ -1,0 +1,11 @@
+ADMIN MFA LAB | simulated sign-in evidence
+Wrong password, valid code         denied
+Expired code                       denied
+Valid password and code            allowed
+Same code used a second time       replay
+Incorrect code                     denied
+Third failure starts cooldown      denied
+Request during cooldown            cooldown
+Fresh code after cooldown          allowed
+
+All 8 scenarios matched expected results.
