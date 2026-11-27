@@ -1,5 +1,9 @@
 # Case study: Testing an administrative sign-in control
 
+## Why I picked an admin account
+
+An admin can change other people’s access, so I thought it was worth testing more than whether one good code works. The interesting cases for me were the ones the verifier should turn away, and whether the audit record could explain why without exposing a secret.
+
 ## 1. Define the risk
 
 Imagine a small organization with an internal console that lets admins reset user access and change security settings. If an admin's password is stolen or reused elsewhere, password-only sign-in could allow unauthorized changes or access to restricted records. The potential impact is high because of what admins can do. This lab does not estimate the likelihood or claim a measured reduction in risk.

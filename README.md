@@ -1,6 +1,6 @@
 # Admin MFA Lab
 
-**What happens when an administrator's password is compromised, and how can a reviewer tell whether a second sign-in check is working?** This lab models the sign-in decision for a fictional internal admin console and records evidence for a control assessment.
+I was curious what a second sign-in step actually stops if someone already knows an admin’s password. I also wanted to see whether the same code could be used twice before it expired. I used one fake admin account so I could follow each decision and compare it with what turns up in the audit log.
 
 | Scenario | What the lab shows |
 | --- | --- |
